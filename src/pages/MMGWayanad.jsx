@@ -64,14 +64,14 @@ const MMGWayanad = () => {
         <div className="absolute inset-0 bg-black/60 bg-[radial-gradient(ellipse_at_bottom_right,_transparent_0%,_#000_100%)]" />
         <ScrollReveal className="relative z-10 text-center px-6 mt-16 max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl md:text-8xl font-display text-cream mb-4 tracking-wide text-shadow">
-            MMG Resorts Wayanad
+            MMG Wayanad
           </h1>
           <p className="text-lg sm:text-xl md:text-3xl font-display italic text-gold-light mb-8">
             Wild Luxury in the Western Ghats
           </p>
           <div className="inline-block border border-gold/40 px-6 py-2 rounded-full backdrop-blur-sm">
             <p className="text-xs tracking-[0.2em] text-cream uppercase">
-              Wayanad, Kerala | Jungle Retreat
+              Ambhalavayal, Wayanad | Jungle Retreat
             </p>
           </div>
         </ScrollReveal>

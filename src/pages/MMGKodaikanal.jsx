@@ -35,7 +35,7 @@ const MMGKodaikanal = () => {
             Serenity Above the Clouds
           </p>
           <div className="inline-block border border-gold/40 px-6 py-2 rounded-full backdrop-blur-sm">
-            <p className="text-xs tracking-[0.2em] text-cream uppercase">Kodaikanal, Tamil Nadu | Hill Station Retreat | 2,133m</p>
+            <p className="text-xs tracking-[0.2em] text-cream uppercase">25 Acre Farm Land Vattakanal Kodaikanal | Hill Station Retreat | 2,133m</p>
           </div>
         </ScrollReveal>
       </section>

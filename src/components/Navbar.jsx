@@ -29,9 +29,11 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <NavLink to="/" className="flex items-center gap-3 group">
-          <span className="font-display italic text-3xl text-gold group-hover:text-gold-light transition-colors">
-            N
-          </span>
+          <img
+            src="/assets/logo_transparent.png"
+            alt="Navakam Logo"
+            className="h-10 w-auto object-contain rounded-sm"
+          />
           <div className="flex flex-col">
             <span className="font-display tracking-widest text-lg uppercase leading-tight">
               Navakam
@@ -97,7 +99,11 @@ const Navbar = () => {
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 10 }}
-                  transition={{ delay: i * 0.1, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                  transition={{
+                    delay: i * 0.1,
+                    duration: 0.5,
+                    ease: [0.16, 1, 0.3, 1],
+                  }}
                 >
                   <NavLink
                     to={link.path}
@@ -111,14 +117,14 @@ const Navbar = () => {
                 </motion.div>
               ))}
             </div>
-            
-            <motion.div 
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               transition={{ delay: 0.4 }}
-               className="absolute bottom-12 text-center text-gold/50 text-[10px] tracking-[0.3em] uppercase"
+
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+              className="absolute bottom-12 text-center text-gold/50 text-[10px] tracking-[0.3em] uppercase"
             >
-               Navakam Hospitality
+              Navakam Hospitality
             </motion.div>
           </motion.div>
         )}

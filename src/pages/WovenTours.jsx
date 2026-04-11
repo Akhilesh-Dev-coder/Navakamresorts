@@ -19,9 +19,18 @@ const WovenTours = () => {
         <div className="absolute inset-0 bg-[linear-gradient(135deg,#5f421f,#8f6b3a,#c9a84c)]" />
         <div className="absolute inset-0 bg-black/60 bg-[radial-gradient(ellipse_at_bottom,_transparent_0%,_#000_100%)]" />
         <div className="relative z-10 text-center px-6 mt-16">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-display text-gold-light mb-6 tracking-wide drop-shadow-lg md:leading-tight">
-            Woven Tours & <span className="italic">Travels</span> (P) Ltd
-          </h1>
+          <div className="flex justify-center mb-6">
+            <div className="relative group">
+              {/* Soft glow effect behind the logo */}
+              <div className="absolute inset-0 bg-gold/20 blur-2xl rounded-full scale-110 group-hover:scale-125 transition-transform duration-500" />
+              <img 
+                src="/assets/woven_logo_clean.png" 
+                alt="Woven Tours Logo" 
+                className="relative w-48 sm:w-64 md:w-80 h-auto object-contain drop-shadow-2xl z-10"
+              />
+            </div>
+            <h1 className="sr-only">Woven Tours & Travels (P) Ltd</h1>
+          </div>
           <p className="text-base sm:text-lg md:text-xl text-cream tracking-widest uppercase font-light">
             Crafting bespoke journeys across India and beyond
           </p>
