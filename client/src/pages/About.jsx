@@ -43,7 +43,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(135deg,#e8dcc5,#cca46a,#8a6f44)]" />
-        <div className="absolute inset-0 bg-black/40 bg-[radial-gradient(ellipse_at_center,_transparent_0%,_#000_100%)]" />
+        <div className="absolute inset-0 bg-navy/40 bg-[radial-gradient(ellipse_at_center,_transparent_0%,_#0B1D3A_100%)]" />
         
         <div className="relative z-10 text-center px-6 mt-16 max-w-4xl mx-auto flex flex-col items-center">
           <motion.div
@@ -62,7 +62,7 @@ const About = () => {
       </section>
 
       {/* Company Overview */}
-      <section className="py-16 md:py-24 px-6 bg-charcoal text-center">
+      <section className="py-16 md:py-24 px-6 bg-navy text-center">
         <ScrollReveal className="max-w-4xl mx-auto space-y-8">
           <p className="text-muted text-xl lg:text-2xl font-light leading-relaxed">
             <span className="text-gold font-display uppercase not-italic">NAVAKAM RESORTS | WELLNESS CENTERS</span> is the second-home development
@@ -112,7 +112,7 @@ const About = () => {
       </section>
 
       {/* MMG Overview */}
-      <section className="py-16 md:py-24 px-6 bg-charcoal">
+      <section className="py-16 md:py-24 px-6 bg-navy">
         <ScrollReveal className="max-w-6xl mx-auto">
           <div className="text-center mb-16 space-y-6">
             <h2 className="text-4xl md:text-5xl font-display text-gold mb-4">
@@ -211,7 +211,7 @@ const About = () => {
           </div>
           <a
             href="mailto:info@navakam.com"
-            className="inline-block px-10 py-5 bg-gold text-charcoal font-display text-xl uppercase tracking-widest hover:bg-gold-light transition-colors hover:-translate-y-1 duration-300 shadow-xl"
+            className="inline-block px-10 py-5 bg-gold text-navy font-display text-xl uppercase tracking-widest hover:bg-gold-light transition-colors hover:-translate-y-1 duration-300 shadow-xl"
           >
             Enquire Now
           </a>

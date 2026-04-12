@@ -83,7 +83,7 @@ const MMGVagamon = () => {
       {/* Hero */}
       <section className="relative h-[80vh] flex flex-col items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(135deg,#2d5a27,#4a7c59,#8fbc8f)]" />
-        <div className="absolute inset-0 bg-black/50 bg-[radial-gradient(ellipse_at_top,_transparent_30%,_#000_100%)]" />
+        <div className="absolute inset-0 bg-navy/50 bg-[radial-gradient(ellipse_at_top,_transparent_30%,_#0B1D3A_100%)]" />
         <ScrollReveal className="relative z-10 text-center px-6 mt-16">
           <h1 className="text-4xl sm:text-5xl md:text-8xl font-display text-cream mb-4 tracking-wide text-shadow">
             MMG Vagamon
@@ -131,7 +131,7 @@ const MMGVagamon = () => {
       </section>
 
       {/* Highlights */}
-      <section className="py-16 md:py-24 px-6 bg-charcoal">
+      <section className="py-16 md:py-24 px-6 bg-navy">
         <ScrollReveal className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {highlights.map((hl, idx) => (
             <div
@@ -266,7 +266,7 @@ const MMGVagamon = () => {
       </section>
 
       {/* Location & Nearby Destinations */}
-      <section className="py-16 md:py-24 px-6 bg-charcoal">
+      <section className="py-16 md:py-24 px-6 bg-navy">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal className="text-center mb-16">
             <h2 className="text-4xl font-display text-gold mb-4">
@@ -322,7 +322,7 @@ const MMGVagamon = () => {
       </section>
 
       {/* Gallery Placeholder */}
-      <section className="py-16 md:py-24 px-6 bg-charcoal">
+      <section className="py-16 md:py-24 px-6 bg-navy">
         <div className="max-w-7xl mx-auto mb-16 px-4">
           <h2 className="text-4xl font-display text-gold mb-4 text-center">
             Gallery
@@ -342,7 +342,7 @@ const MMGVagamon = () => {
                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     alt="Gallery item"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/40 z-10 backdrop-blur-sm duration-300">
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-navy/40 z-10 backdrop-blur-sm duration-300">
                     <span className="text-gold font-display italic text-xl">
                       View Details
                     </span>
@@ -375,7 +375,7 @@ const MMGVagamon = () => {
           </h2>
           <a
             href="mailto:info@navakamresorts.com"
-            className="inline-block px-10 py-5 bg-gold text-charcoal font-display text-xl uppercase tracking-widest hover:bg-gold-light transition-colors hover:scale-105 duration-300"
+            className="inline-block px-10 py-5 bg-gold text-navy font-display text-xl uppercase tracking-widest hover:bg-gold-light transition-colors hover:scale-105 duration-300"
           >
             Enquire Now
           </a>

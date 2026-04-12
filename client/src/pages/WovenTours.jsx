@@ -17,7 +17,7 @@ const WovenTours = () => {
       {/* Hero */}
       <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(135deg,#5f421f,#8f6b3a,#c9a84c)]" />
-        <div className="absolute inset-0 bg-black/60 bg-[radial-gradient(ellipse_at_bottom,_transparent_0%,_#000_100%)]" />
+        <div className="absolute inset-0 bg-navy/60 bg-[radial-gradient(ellipse_at_bottom,_transparent_0%,_#0B1D3A_100%)]" />
         <div className="relative z-10 text-center px-6 mt-16">
           <div className="flex justify-center mb-6">
             <div className="relative group">
@@ -41,7 +41,7 @@ const WovenTours = () => {
       <section className="py-16 md:py-24 px-6 bg-[#0a0a0a]">
         <ScrollReveal className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
           <div className="flex-1 h-[500px] w-full rounded-sm overflow-hidden bg-[url('https://picsum.photos/seed/wovenabout/800/600')] bg-cover bg-center relative shadow-2xl">
-            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
+            <div className="absolute inset-0 bg-navy/20 group-hover:bg-navy/10 transition-colors" />
           </div>
           <div className="flex-1 space-y-6">
             <h2 className="text-4xl font-display text-gold mb-8">About Our Agency</h2>
@@ -66,7 +66,7 @@ const WovenTours = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="py-16 md:py-24 px-6 bg-charcoal">
+      <section className="py-16 md:py-24 px-6 bg-navy">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
             <div className="text-center mb-16">
@@ -113,7 +113,7 @@ const WovenTours = () => {
         <ScrollReveal className="relative z-10 space-y-8">
           <h2 className="text-4xl md:text-6xl font-display text-cream italic">Your next adventure is one call away</h2>
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center mt-8 w-full">
-            <a href="tel:+919746566077" className="w-full text-center sm:w-auto px-8 py-4 bg-gold text-charcoal font-display text-lg uppercase tracking-widest hover:bg-gold-light transition-colors active:scale-95">
+            <a href="tel:+919746566077" className="w-full text-center sm:w-auto px-8 py-4 bg-gold text-navy font-display text-lg uppercase tracking-widest hover:bg-gold-light transition-colors active:scale-95">
               Call 9746566077
             </a>
           </div>

@@ -26,7 +26,7 @@ const MMGKodaikanal = () => {
       {/* Hero */}
       <section className="relative h-[80vh] flex flex-col items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(135deg,#2d3a5a,#4a5a8f,#8fa0bc)]" />
-        <div className="absolute inset-0 bg-black/50 bg-[radial-gradient(ellipse_at_top,_transparent_10%,_#000_100%)]" />
+        <div className="absolute inset-0 bg-navy/50 bg-[radial-gradient(ellipse_at_top,_transparent_10%,_#0B1D3A_100%)]" />
         <ScrollReveal className="relative z-10 text-center px-6 mt-16 max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl md:text-8xl font-display text-cream mb-4 tracking-wide text-shadow">
             MMG Resorts Kodaikanal
@@ -80,7 +80,7 @@ const MMGKodaikanal = () => {
                         <span className="text-gold font-bold ml-1 text-xs px-1 border border-gold/30 rounded-sm">Max</span> {room.capacity}
                       </li>
                     </ul>
-                    <button className="w-full py-3 bg-gold/10 hover:bg-gold text-gold hover:text-charcoal transition-colors uppercase tracking-widest text-sm font-medium">
+                    <button className="w-full py-3 bg-gold/10 hover:bg-gold text-gold hover:text-navy transition-colors uppercase tracking-widest text-sm font-medium">
                       Book Now
                     </button>
                   </div>
@@ -103,7 +103,7 @@ const MMGKodaikanal = () => {
             {seasons.map((season) => (
               <div key={season.title} className="text-center group">
                 <div className="w-20 h-20 mx-auto rounded-full border border-gold/30 bg-[#121624] flex items-center justify-center mb-6 group-hover:bg-gold transition-colors duration-300">
-                  <season.icon size={32} className="text-gold group-hover:text-charcoal transition-colors duration-300" />
+                  <season.icon size={32} className="text-gold group-hover:text-navy transition-colors duration-300" />
                 </div>
                 <h3 className="text-xl font-display text-cream mb-2">{season.title}</h3>
                 <p className="text-muted text-sm font-light max-w-[200px] mx-auto leading-relaxed">{season.desc}</p>
@@ -114,7 +114,7 @@ const MMGKodaikanal = () => {
       </section>
 
       {/* Attractions Nearby */}
-      <section className="py-16 md:py-24 px-6 bg-charcoal">
+      <section className="py-16 md:py-24 px-6 bg-navy">
         <ScrollReveal className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-display text-gold mb-4">Nearby Attractions</h2>

@@ -37,7 +37,7 @@ const AnimatedRoutes = () => {
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen bg-charcoal text-cream font-body selection:bg-gold/30 selection:text-gold-light">
+      <div className="flex flex-col min-h-screen bg-navy text-cream font-body selection:bg-gold/30 selection:text-gold-light">
         <Navbar />
         <main className="flex-grow">
           <AnimatedRoutes />

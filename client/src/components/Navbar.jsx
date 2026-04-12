@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? "bg-charcoal/95 backdrop-blur-md py-4 shadow-lg shadow-black/20" : "bg-transparent py-6"}`}
+      className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? "bg-navy/95 backdrop-blur-md py-4 shadow-lg shadow-navy/20" : "bg-transparent py-6"}`}
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <NavLink to="/" className="flex items-center gap-3 group">

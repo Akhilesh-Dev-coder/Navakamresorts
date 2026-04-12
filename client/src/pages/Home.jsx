@@ -39,7 +39,7 @@ const Home = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Parallax Background */}
         <div className="absolute inset-0 bg-[linear-gradient(135deg,#0a1913,#1a3a2a,#4a3a1a)]" />
-        <div className="absolute inset-0 bg-black/60 bg-[radial-gradient(ellipse_at_center,_transparent_0%,_#000_100%)]" />
+        <div className="absolute inset-0 bg-navy/60 bg-[radial-gradient(ellipse_at_center,_transparent_0%,_#0B1D3A_100%)]" />
 
         <div className="relative z-10 text-center px-6 mt-16 max-w-4xl mx-auto flex flex-col items-center">
           <motion.div
@@ -71,12 +71,14 @@ const Home = () => {
           >
             <a
               href="#properties"
-              className="w-full text-center sm:w-auto px-8 py-4 bg-gold text-charcoal font-display text-lg uppercase tracking-widest hover:bg-gold-light active:scale-95 transition-all duration-300"
+              className="w-full text-center sm:w-auto px-8 py-4 bg-gold text-navy font-display text-lg uppercase tracking-widest hover:bg-gold-light active:scale-95 transition-all duration-300"
             >
               Explore Our Properties
             </a>
             <a
-              href="mailto:info@navakamresorts.com"
+              href="https://wa.me/919746566077?text=Hello!%20I%20would%20like%20to%20get%20in%20touch%20with%20Navakam%20Resorts."
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full text-center sm:w-auto px-8 py-4 border border-gold text-gold font-display text-lg uppercase tracking-widest hover:bg-gold/10 active:scale-95 transition-all duration-300"
             >
               Get In Touch
@@ -150,7 +152,7 @@ const Home = () => {
       </section>
 
       {/* Properties Showcase */}
-      <section id="properties" className="py-16 md:py-32 px-6 bg-charcoal">
+      <section id="properties" className="py-16 md:py-32 px-6 bg-navy">
         <ScrollReveal className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-display text-gold mb-4">
@@ -168,7 +170,7 @@ const Home = () => {
                     transition={{ duration: 0.4, ease: "easeOut" }}
                     className={`group relative h-[400px] md:h-[500px] overflow-hidden rounded-sm shadow-2xl flex items-end ${prop.bg}`}
                   >
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10 group-hover:from-charcoal/95 transition-colors duration-500" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/40 to-navy/10 group-hover:from-navy/95 transition-colors duration-500" />
                     <div className="relative z-10 p-6 md:p-10 w-full">
                       <h3 className="text-3xl font-display text-gold-light mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                         {prop.title}
@@ -236,7 +238,7 @@ const Home = () => {
       </section>
 
       {/* Locations */}
-      <section className="py-16 px-6 bg-charcoal border-b border-white/5">
+      <section className="py-16 px-6 bg-navy border-b border-white/5">
         <ScrollReveal className="max-w-7xl mx-auto flex flex-col items-center">
           <h2 className="text-3xl font-display text-gold mb-10 text-center">
             Our Locations

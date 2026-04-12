@@ -61,7 +61,7 @@ const MMGWayanad = () => {
       {/* Hero */}
       <section className="relative h-[80vh] flex flex-col items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(135deg,#1a3a1a,#2d5a27,#6b8f3e)]" />
-        <div className="absolute inset-0 bg-black/60 bg-[radial-gradient(ellipse_at_bottom_right,_transparent_0%,_#000_100%)]" />
+        <div className="absolute inset-0 bg-navy/60 bg-[radial-gradient(ellipse_at_bottom_right,_transparent_0%,_#0B1D3A_100%)]" />
         <ScrollReveal className="relative z-10 text-center px-6 mt-16 max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl md:text-8xl font-display text-cream mb-4 tracking-wide text-shadow">
             MMG Wayanad
@@ -104,7 +104,7 @@ const MMGWayanad = () => {
                 className="flex-1 w-full h-[400px] relative overflow-hidden group shadow-2xl bg-cover bg-center"
                 style={{ backgroundImage: `url(${exp.img})` }}
               >
-                <div className="absolute inset-0 opacity-20 group-hover:opacity-40 transition-opacity duration-700 bg-black" />
+                <div className="absolute inset-0 opacity-20 group-hover:opacity-40 transition-opacity duration-700 bg-navy" />
                 <div className="absolute bottom-6 left-6 text-white/50 font-display text-8xl italic font-bold">
                   0{idx + 1}
                 </div>

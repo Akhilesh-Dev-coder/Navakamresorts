@@ -82,7 +82,7 @@ const InvestmentSchemes = () => {
             className={`flex flex-col bg-[#121212] border ${scheme.featured ? 'border-gold shadow-[0_0_15px_rgba(201,168,76,0.3)]' : 'border-white/10'} rounded-sm overflow-hidden relative group`}
           >
             {scheme.featured && (
-              <div className="absolute top-4 right-4 bg-gold text-charcoal text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded-sm z-10">
+              <div className="absolute top-4 right-4 bg-gold text-navy text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded-sm z-10">
                 Most Popular
               </div>
             )}
@@ -128,7 +128,7 @@ const InvestmentSchemes = () => {
               </div>
             </div>
             
-            <button className="w-full py-4 bg-gold text-charcoal font-display uppercase tracking-widest text-sm hover:bg-gold-light transition-colors mt-auto">
+            <button className="w-full py-4 bg-gold text-navy font-display uppercase tracking-widest text-sm hover:bg-gold-light transition-colors mt-auto">
               Enquire Now
             </button>
           </motion.div>
