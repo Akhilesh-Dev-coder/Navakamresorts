@@ -10,7 +10,7 @@ const properties = [
     title: "Woven Tours & Travels (P) Ltd",
     tagline: "Crafting journeys, creating memories",
     path: "/woven-tours",
-    bg: "bg-[url('https://picsum.photos/seed/woven/800/600')] bg-cover bg-center",
+    bg: "bg-[url('/assets/woven_logo.jpeg')] bg-cover bg-center",
   },
   {
     title: "MMG Vagamon",
@@ -253,19 +253,13 @@ const Home = () => {
             <div className="flex items-center gap-2 px-6 py-3 bg-[#1a1a1a] rounded-full border border-white/10 text-cream">
               <MapPin size={18} className="text-gold" />
               <span className="text-sm tracking-widest uppercase font-light">
-                Vagamon, Kerala
-              </span>
-            </div>
-            <div className="flex items-center gap-2 px-6 py-3 bg-[#1a1a1a] rounded-full border border-white/10 text-cream">
-              <MapPin size={18} className="text-gold" />
-              <span className="text-sm tracking-widest uppercase font-light">
                 Ambhalavayal, Wayanad
               </span>
             </div>
             <div className="flex items-center gap-2 px-6 py-3 bg-[#1a1a1a] rounded-full border border-white/10 text-cream">
               <MapPin size={18} className="text-gold" />
               <span className="text-sm tracking-widest uppercase font-light">
-                25 Acre Farm Land Vattakanal Kodaikanal
+                Vattakanal Kodaikanal
               </span>
             </div>
           </div>

@@ -374,7 +374,9 @@ const MMGVagamon = () => {
             Ready to escape to the hills?
           </h2>
           <a
-            href="mailto:info@navakamresorts.com"
+            href="https://wa.me/919746566077?text=Hello!%20I%20am%20interested%20in%20MMG%20Vagamon%20and%20would%20like%20to%20enquire%20and%20book."
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block px-10 py-5 bg-gold text-navy font-display text-xl uppercase tracking-widest hover:bg-gold-light transition-colors hover:scale-105 duration-300"
           >
             Enquire Now

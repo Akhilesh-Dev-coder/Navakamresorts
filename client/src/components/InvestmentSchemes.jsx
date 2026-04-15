@@ -128,9 +128,14 @@ const InvestmentSchemes = () => {
               </div>
             </div>
             
-            <button className="w-full py-4 bg-gold text-navy font-display uppercase tracking-widest text-sm hover:bg-gold-light transition-colors mt-auto">
+            <a 
+              href="https://wa.me/919746566077?text=Hello!%20I%20am%20interested%20in%20your%20Investment%20Schemes%20and%20would%20like%20to%20enquire."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-center w-full py-4 bg-gold text-navy font-display uppercase tracking-widest text-sm hover:bg-gold-light transition-colors mt-auto"
+            >
               Enquire Now
-            </button>
+            </a>
           </motion.div>
         ))}
       </div>

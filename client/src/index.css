@@ -12,17 +12,34 @@
 }
 
 @layer base {
+  html {
+    font-size: 18px; /* Larger base size on mobile to scale up all rem-based text */
+  }
+  @media (min-width: 640px) {
+    html {
+      font-size: 16px; /* Return to standard scaling on desktop */
+    }
+  }
+
   body {
     @apply font-body bg-cream text-navy overflow-x-hidden antialiased;
+    /* Base text is bolder on mobile, normal on larger screens */
+    @apply font-medium sm:font-normal;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display font-medium;
+    /* Make headers bolder globally */
+    @apply font-display font-bold;
   }
 }
 
 /* Custom utility styles */
 @layer utilities {
+  @media (max-width: 639px) {
+    /* Override font-light properties on mobile to ensure bolder text as requested */
+    .font-light { font-weight: 500 !important; }
+    .font-normal { font-weight: 600 !important; }
+  }
   .text-shadow-sm {
     text-shadow: 0 1px 2px rgba(0,0,0,0.5);
   }

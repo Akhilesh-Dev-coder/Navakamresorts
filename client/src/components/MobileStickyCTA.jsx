@@ -35,7 +35,9 @@ const MobileStickyCTA = () => {
         >
           <div className="flex gap-4">
             <a 
-              href="mailto:info@navakam.com" 
+              href="https://wa.me/919746566077?text=Hello!%20I%20am%20interested%20in%20your%20properties%20and%20would%20like%20to%20enquire%20and%20book."
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex-1 bg-gold text-navy py-3 rounded-sm font-display uppercase tracking-widest text-center text-sm font-medium active:scale-95 transition-transform"
             >
               Enquire Now

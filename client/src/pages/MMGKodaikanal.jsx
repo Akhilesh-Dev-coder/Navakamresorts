@@ -80,9 +80,14 @@ const MMGKodaikanal = () => {
                         <span className="text-gold font-bold ml-1 text-xs px-1 border border-gold/30 rounded-sm">Max</span> {room.capacity}
                       </li>
                     </ul>
-                    <button className="w-full py-3 bg-gold/10 hover:bg-gold text-gold hover:text-navy transition-colors uppercase tracking-widest text-sm font-medium">
+                    <a 
+                      href={`https://wa.me/919746566077?text=Hello!%20I%20am%20interested%20in%20booking%20the%20${room.name.replace(/ /g, '%20')}%20at%20MMG%20Kodaikanal.`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-center w-full py-3 bg-gold/10 hover:bg-gold text-gold hover:text-navy transition-colors uppercase tracking-widest text-sm font-medium"
+                    >
                       Book Now
-                    </button>
+                    </a>
                   </div>
                 </div>
               </ScrollReveal>
