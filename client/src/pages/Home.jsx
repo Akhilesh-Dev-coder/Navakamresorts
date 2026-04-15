@@ -202,7 +202,7 @@ const Home = () => {
             </h2>
             <div className="w-24 h-px bg-gold/50 mx-auto" />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="p-8 bg-[#121212] border border-white/5 hover:border-gold/30 transition-colors duration-300">
               <Leaf size={40} className="text-gold mb-6" />
               <h3 className="text-2xl font-display text-cream mb-4">
@@ -221,16 +221,6 @@ const Home = () => {
               <p className="text-muted leading-relaxed font-light">
                 Commercial conglomerate spanning trading, travel, food, and
                 financial services
-              </p>
-            </div>
-            <div className="p-8 bg-[#121212] border border-white/5 hover:border-gold/30 transition-colors duration-300">
-              <Network size={40} className="text-gold mb-6" />
-              <h3 className="text-2xl font-display text-cream mb-4">
-                Key Partner Network
-              </h3>
-              <p className="text-muted leading-relaxed font-light">
-                Prakriti Builders, Essential Trading Solutions, Woven Tours,
-                Paripurna Creations, BMCI Nidhi Ltd, ORGANO Foods
               </p>
             </div>
           </div>
